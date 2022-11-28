@@ -1,0 +1,32 @@
+.wrapper {
+    background-color: grey;
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+    text-align: center;
+}
+
+.main {
+    padding: 20px;
+    box-sizing: border-box;
+    flex-basis: 32%;
+    color: white;
+}
+
+@media (min-width: 900px) {
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.main:nth-child(1) {
+    background-color: brown;
+}
+
+.main:nth-child(2) {
+    background-color: blue;
+}
+
+.main:nth-child(3) {
+    background-color: brown;
+}
